@@ -20,6 +20,28 @@ h2, h3, h4, h5, h6 {
 /*    font-weight: 300 !important;*/
 
 }
+.nf-form-fields-required {
+    font-size: 75%;
+    margin-bottom: 6px
+}
+.nf-field-container {
+    margin-bottom: 18px !important;
+}
+.nf-field-label {
+margin-bottom: 4px !important;
+}
+.nf-field-element textarea {
+    height: 140px !important;
+}
+.nf-form-wrap {
+    width: 75%;
+    margin-top: 30px;
+}
+.nf-response-msg {
+    font-weight: 600;
+    color: #1364b9;
+}
+
 h1 {
     font-family: 'Oswald', 'Arial', sans-serif !important;
     letter-spacing: -.75px;
@@ -400,6 +422,10 @@ text-decoration: underline;
     column-count: 1;
     font-size: 100%;
     }
+    .nf-form-wrap {
+    width: 100%;
+    margin-top: 30px;
+}
 
 
 
