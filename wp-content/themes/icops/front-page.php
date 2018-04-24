@@ -20,10 +20,60 @@ get_header();
 <main id="main" class="site-main" role="main">
 
 
+<!-- 
+http://via.placeholder.com/960x200 -->
+
+
+<div class="container" style="margin-top: 2em; margin-bottom:2em; padding:0px;">
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="6000" data-pause="hover">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+<!--       <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        
+        <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/hero/small/wewatchout-small.jpg" class="w-100 d-md-none"/>
+
+        <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/hero/large/wewatchout.jpg" class="w-100 d-none d-md-block"/>
+
+    </div>
+    <div class="carousel-item">
+        
+        <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/hero/small/onevoice-small.jpg" class="w-100 d-md-none"/>
+
+        <img src="<?php echo get_stylesheet_directory_uri()?>/assets/img/hero/large/onevoice.jpg" class="w-100 d-none d-md-block"/>
+
+    </div>
+
+
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
 
 
 
-  <div class="hero">
+
+
+
+
+
+
+
+
+
+
+
+
+<!--   <div class="hero">
 
     <div class="container front-pg-bg">
       <div class="row justify-content-sm-center justify-content-lg-start">
@@ -37,8 +87,8 @@ get_header();
        </div>
     </div>  
 
-  </div><!-- END JUBOTRON -->
-
+  </div>
+ -->
 
 
 

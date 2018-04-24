@@ -15,8 +15,8 @@ get_sidebar();
 ?> 
                 <main id="main" class="col-md-<?php echo \BootstrapBasic4\Bootstrap4Utilities::getMainColumnSize(); ?> site-main" role="main">
                     <header class="entry-header">
-        <h1 class="entry-title">Members</h1>
-    </header>
+                        <h1 class="entry-title">Members</h1>
+                    </header>
                     <?php
                     if( have_posts() ) :
                         while( have_posts() ) : the_post();

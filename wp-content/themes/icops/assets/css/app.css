@@ -84,6 +84,17 @@ a:active {
 }
 
 
+.cover {
+background-size: cover;
+background-position: center center;
+}
+.flag {
+    background-image: url('../img/hero/illinoisflag-iso.png');
+}
+.car {
+    background-image: url('../img/hero/illinoisstate_car_alley.jpg');
+}
+
 
 .hero {
     background-color: #3399cc;
@@ -92,6 +103,7 @@ a:active {
     background-image: url('../img/hero/sky.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+/*    border: 1px solid #666;*/
 }
 .hero h1 {
 /*    color: rgba(255, 228, 132, 1) !important;*/
