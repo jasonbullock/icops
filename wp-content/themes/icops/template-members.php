@@ -38,10 +38,12 @@ get_sidebar();
                     $categories = get_categories( $args );
                     echo '<ul class="member-list">';
                     foreach ( $categories as $category ) {
+                        if ($category->name != "Uncategorized") {
                         echo '<li>';
-                        echo '<a href="' . get_permalink() . $category->slug . '">'  . $category->name . '</a>';
+                        echo '<a href="' . get_permalink() . $category->slug . '">'  . $category->name . '</a>' . ' ' . '<span style="color: #999">' . $category->count . '</span>';
                         // echo ' ' . $category->category_count;
                         echo '</li>';
+                        }
                     }
                     echo '</ul>';
 ?>

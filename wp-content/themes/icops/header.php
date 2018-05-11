@@ -53,7 +53,7 @@
         <div class="container">
             <div class="row site-branding">
                 <div class="site-branding-left">
-                    <a href="tel://1-800-832-7501" target="_self" class="header-link"><i class="fas fa-phone"></i>1 (800) 832-7501</a>
+                    <a href="tel://1-800-832-7501" target="_self" class="header-link"><i class="fas fa-phone header-phone-icon"></i><span class="header-phone-number">1 (800) 832-7501</span></a>
                   
                 </div>
 

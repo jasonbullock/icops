@@ -65,33 +65,6 @@ http://via.placeholder.com/960x200 -->
 
 
 
-
-
-
-
-
-
-
-
-<!--   <div class="hero">
-
-    <div class="container front-pg-bg">
-      <div class="row justify-content-sm-center justify-content-lg-start">
-        <div class="col-lg-5 col-xl-6 col-sm-12">
-
-            <h1> <?php the_field('hero_title'); ?></h1> 
-
-            <p class="lead"> <?php the_field('hero_content'); ?> </p>
-            <a href="/about-illinois-council-of-police/"><button type="button" class="btn btn-outline-light btn-sm">Learn More about ICOPs</button></a>
-        </div>
-       </div>
-    </div>  
-
-  </div>
- -->
-
-
-
 <div class="section">
   <div class="container">
 
@@ -102,7 +75,7 @@ http://via.placeholder.com/960x200 -->
                <i class="hm-icons fa fa-star"></i>
                 <div class="card-body">
                   <h5 class="card-title"><?php the_field('section_1_title'); ?></h5>
-                  <p><?php the_field('section_1_content'); ?><br><a href="#">More info.</a></p>
+                  <p><?php the_field('section_1_content'); ?></p>
                 </div>
                 <div class="card-footer">
                    <a href="<?php echo get_stylesheet_directory_uri()?>/assets/img/pdf/icops-legal-plan-application.pdf" target="_blank">
@@ -120,7 +93,7 @@ http://via.placeholder.com/960x200 -->
                   <p class="card-text"><?php the_field('section_2_content'); ?></p>
                 </div>
                 <div class="card-footer">
-                   <a href="/members/"><button type="button" class="btn btn-outline-primary btn-sm"><i class="fa fa-list-ul" style="margin-right: 7px;"></i>See Updates for Your Town</button></a>
+                   <a href="<?php echo get_stylesheet_directory_uri()?>/members/"><button type="button" class="btn btn-outline-primary btn-sm"><i class="fa fa-list-ul" style="margin-right: 7px;"></i>See Updates for Your Town</button></a>
                 </div>
               </div>
           </div>

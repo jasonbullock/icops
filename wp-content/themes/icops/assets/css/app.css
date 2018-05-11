@@ -230,6 +230,8 @@ ul.social-icons-footer {
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
     -webkit-padding-start: 00px;
+    display: inline-block;
+    width:100%;
 }
 ul.social-icons-footer li {
     list-style-type: none;
@@ -381,7 +383,10 @@ ul.member-list {
 list-style-type: none;
 padding-left: 0px;
 column-count: 2;
-font-size: 95%;
+font-size: 90%;
+}
+ul.member-list li{
+margin-bottom: 5px;
 }
 
 ul.member-list a:hover {
@@ -451,8 +456,11 @@ text-decoration: underline;
 
 
 @media only screen and (max-width: 768px) {
+    .header-phone-icon {
+        display: none  !important;
+    }
      .navbar-brand img {
-        height: 3.5em;
+        height: 3.25em;
     }
     .navbar {
         padding: .15rem 1rem;
